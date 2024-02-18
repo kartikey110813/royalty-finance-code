@@ -1,0 +1,46 @@
+.showcase {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.showcase img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: fill;
+}
+
+.showcase h2 {
+  font-size: 2em;
+  color: #edc967;
+}
+
+.showcase p {
+  font-size: 1.2em;
+}
+.bgabout h2 {
+  color: #edc967;
+  font: 3em;
+}
+.bgabout p {
+  font-size: 1.2em;
+  font: 1em;
+}
+.bgabout {
+  padding-top: 1em;
+  background-color: #1b242c;
+  width: 100%;
+  color: white;
+}
+
+/* .elementor-shape-fill {
+    transform-origin: center;
+    transform: rotateY(0deg);
+  } */
+
+.goldline {
+  border: 1px solid #edc967 !important;
+  width: 10%;
+}

@@ -1,0 +1,75 @@
+.showcase {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.showcase img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.showcase h2 {
+  margin-top: 170px;
+  font-size: 2em;
+  color: #edc967;
+}
+.goldline {
+  border: 1px solid #edc967 !important;
+  width: 10%;
+}
+.bgabout h2 {
+  color: #edc967;
+  padding-top: 2em;
+  font: 2em;
+}
+
+.bgabout {
+  padding-top: 1em;
+  background-color: #1b242c;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/* .elementor-shape-fill {
+  transform-origin: center;
+  transform: rotateY(0deg);
+} */
+.element-flow {
+  /* overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr; */
+}
+.elementmain {
+  background-color: #edc967;
+}
+.elementor-shape-fill {
+  fill: #1b242c;
+}
+.elementor-shape-bottom {
+  bottom: -1px;
+}
+.elementor-shape-top {
+  top: -1px;
+}
+
+.growthrate {
+  font: 3rem;
+  margin: 0px;
+  color: aliceblue;
+}
+.contactButton {
+  box-shadow: 0 8px 16px 0 rgba(237, 201, 103, 0.749),
+    0 6px 20px 0 rgba(237, 201, 103, 0.749);
+}
+.contactButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(237, 201, 103, 0.749),
+    0 17px 50px 0 rgba(237, 201, 103, 0.749);
+}

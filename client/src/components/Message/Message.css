@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-message {
+    margin: 2rem;
+    padding: 2rem;
+    height: 200px;
+    border: 1px solid #edc967;
+    width: 80%;
+}
+.container-input{
+    color: #edc967;
+    width: 100%;
+}
+.message_input{
+    width: 100%;   
+    border: 1px solid #edc967;
+    padding: 0.5rem;
+    background: transparent;
+}
+.message_btn{
+    padding: 0.5rem;
+    background-color: #edc967;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.conatainer-button{
+    padding: 0.5rem;
+}

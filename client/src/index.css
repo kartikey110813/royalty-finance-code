@@ -1,0 +1,37 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Baskervville/Baskervville-Regular.ttf"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/Baskervville/Baskervville-Italic.ttf")
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Libre_Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Libre_Baskerville//LibreBaskerville-Regular.ttf"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf")
+      format("embedded-opentype");
+}
+* {
+  font-family: "Baskerville";
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Baskervville";
+}
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
